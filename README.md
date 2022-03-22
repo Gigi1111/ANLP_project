@@ -21,28 +21,19 @@ Once training set is done, we moved on to evaluation set to repeat the same proc
 Last, we tried out logistic regression, SVM, and a sequential neural network for tuning and predicting.
 
   
-## Project Structure (Screenshots)
+## Project Structure 
 
-data/ stores the csv files provided by the task, which contains training and evaluation news pairs with links and annotated scores:
-![data](/screenshots/provided_csv.png)
+The folder <code>data/</code> stores the csv files provided by the task, which contains training and evaluation news pairs with links and annotated scores.
 
-Notebook 01-10 contains our work on the training set, from analyzing data, preprocessing, to extracting features:
-![train_code](/screenshots/train_code.png)
+<code>Notebooks numbered 01-10</code> contain our work on the training set, from analyzing data, preprocessing,to extracting features.
   
-And folder train/ contains all the intermediate csv files we produced with 01-10 notebooks:
-![train_csv](/screenshots/train_csv.png)
+And folder <code>train/</code> contains all the intermediate csv files we produced with 01-10 notebooks.
   
-Notebook 11-20 contains our work on the evaluation set, from analyzing data, preprocessing, to extracting features:
-![eval_code](/screenshots/eval_code.png)
+<code>Notebooks numbered 11-20</code> contains our work on the evaluation set, from analyzing data, preprocessing, to extracting features.
   
-And folder eval/ contains all the intermediate csv files we produced with 01-10 notebooks:
-![eval_csv](/screenshots/eval_csv.png)
+And folder <code>eval/</code> contains all the intermediate csv files we produced with 01-10 notebooks.
   
-The rest of the notebooks contain our tuning code and model results:
-![model_code](/screenshots/model_code.png)
-  
-The model/ folder contains tuning result and predictions:
-![model_csv](/screenshots/model_csv.png)
+Lastly, <code>Notebooks numbered 21-23</code> contain our tuning code and results of our models. And the tuning combinations are stored under the tly, <code>model/</code> folder.
   
 ## Project format
 
