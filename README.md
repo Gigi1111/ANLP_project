@@ -24,7 +24,7 @@ Last, we tried out logistic regression, SVM, and a sequential neural network for
 ## Project Structure (Screenshots)
 
 data/ stores the csv files provided by the task, which contains training and evaluation news pairs with links and annotated scores:
-![data](/screenshots/data.png)
+![data](/screenshots/provided_csv.png)
 
 Notebook 01-10 contains our work on the training set, from analyzing data, preprocessing, to extracting features:
 ![train_code](/screenshots/train_code.png)
@@ -44,6 +44,38 @@ The rest of the notebooks contain our tuning code and model results:
 The model/ folder contains tuning result and predictions:
 ![model_csv](/screenshots/model_csv.png)
   
+## Project format
+
+Due to the fact that this is a collaborated project that's being run on different OS, some minor formatting may be specific to a member's OS, but overall, at least for the directory format (eg. '/data/....csv'), it mainly complies to Mac OS. 
 
 
+## Packages and Versions
+
+nltk 3.5
+  
+googletrans 4.0.0-rc1
+  
+spacy 2.3.2
+  
+bs4 4.9.3 (BeautifulSoup)
+  
+pandas 1.1.5
+  
+json 2.0.9
+  
+sklearn 0.24.1
+  
+sentence_transformers 0.4.1
+  
+stanza 1.3.0
+  
+numpy 1.21.4
+  
+matplotlib 3.3.3
+  
+tensorflow 2.8.0
+  
+keras 2.4.3
+  
+scikeras 0.6.1
 
