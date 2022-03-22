@@ -10,6 +10,10 @@
 
 - [Python Scraper](https://github.com/euagendas/semeval_8_2022_ia_downloader)
 
+## Project Deployment
+
+Other than the scraping part, the whole project can be executed by running the notebooks in the order that are numbered.
+  
 ## Project Walkthrough
 
 The task was provided with a python scraping tool and a csv files of news pair, their links (for scraping), their 1-4 human annotated similarity score (on average) as training and evaluation set. After scraping, the news are stored as html and json files, but since they are too big to upload, if you wish to scrape them, you can use the "Python Scraper" in the link section along with the csv files in the data/ folder to get the original files. 
